@@ -17,16 +17,26 @@ header {
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
+
 a {
-    background-color: transparent;
+	background-color: transparent;
+}
+
+h1 {
+	display: block;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
 }
 
 /* ------------------   header   ------------------*/
 .header-sidebar-menu {
 	background: url(../img/menu-right.png);
-	background-size: cover;  
+	background-size: cover;
 	width: 30px;
 	height: 50px;
 	float: left;
@@ -44,9 +54,7 @@ a {
 	cursor: pointer;
 }
 
-.header-sidebar-menu:hover {
-    
-}
+.header-sidebar-menu:hover {}
 
 .home-link {
 	float: right;
@@ -69,11 +77,11 @@ a {
 	transition: all 0.3s ease-in 0s;
 	transform: translate3d(0, 0, 0);
 	position: relative;
-	box-shadow: -3px 0 2px 0 rgba(0,0,0,0.6);
+	box-shadow: -3px 0 2px 0 rgba(0, 0, 0, 0.6);
 }
 
 .site-intro {
-	height:30vh;
+	height: 30vh;
 	position: relative;
 	z-index: 3;
 	width: 100%;
@@ -81,8 +89,7 @@ a {
 }
 
 .site-intro-img {
-	/* background-image: url(/intro/index-bg.jpg); */
-	background-color: #01AAED !important;
+	background-image: url(../img/index-bg.jpg);
 	position: absolute;
 	z-index: -1;
 	top: 0;
@@ -108,22 +115,25 @@ a {
 }
 
 .intro-fade-in {
-    opacity: 1;
-    transform: translate(0, 0);
+	opacity: 1;
+	transform: translate(0, 0);
 }
+
 .intro-title {
-    font-size: 4rem;
+	font-size: 4rem;
 }
-.intro-title, .intro-subtitle {
-    font-family: "Oswald-Regular";
-    color: #fff;
-    margin: 0;
-    transition: all 0.5s ease-out 0s;
+
+.intro-title,
+.intro-subtitle {
+	font-family: "Oswald-Regular";
+	color: #fff;
+	margin: 0;
+	transition: all 0.5s ease-out 0s;
 }
 
 .intro-subtitle {
-    font-size: 2rem;
-    transition-delay: 0.5s;
+	font-size: 1.3rem;
+	transition-delay: 0.5s;
 }
 
 /* ------------------   container   ------------------*/
@@ -151,41 +161,51 @@ a {
 	margin: 4px 0 0 0;
 	width: 200px;
 	font: 1rem "Oswald-Regular";
-	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	padding-bottom: 0.5rem;
+}
+
+.profile * {
+	color: #777;
 }
 
 .profile-avatar {
 	display: block;
 	border-radius: 1rem;
 	width: 100%;
-	box-shadow: 0 0 2px 0 rgba(0,0,0,0.6);
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.6);
 }
 
 .profile-name {
-    font-size: 2rem;
-    line-height: 3rem;
-    padding: 0.5rem 0 0 0;
-    color: #333;
-    text-align: center;
+	font-size: 2rem;
+	line-height: 3rem;
+	padding: 0.5rem 0 0 0;
+	color: #333;
+	text-align: center;
 }
 
 .profile-signature {
-    font-size: 1rem;
-    text-align: center;
+	font-size: 1rem;
+	text-align: center;
 }
 
 .profile-social {
-    position: relative;
-    width: 100%;
-    text-align: left;
-    line-height: 1.7rem;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+	position: relative;
+	width: 100%;
+	text-align: left;
+	line-height: 1.7rem;
+	padding: 0.5rem 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .about-me {
-	
+	padding: 0.5rem 0;
+	text-align: center;
+}
+
+.about-me a {
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 
 /* ------------------   main   ------------------*/
@@ -199,33 +219,49 @@ a {
 }
 
 .index-post {
-    position: relative;
-    padding: 1rem 0rem 1rem 0rem;
-    border-bottom: 1px dashed rgba(0,0,0,0.2);
-    z-index: 3;
+	position: relative;
+	padding: 1rem 0rem 1rem 0rem;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+	z-index: 3;
 }
 
 .abstract-title {
-    line-height: 2.5rem;
-    color: #787878;
-    padding-bottom: 0.5rem;
+	line-height: 2.5rem;
+	color: #787878;
+	padding-bottom: 0.5rem;
 }
 
-.abstract-content, .article-entry {
-    position: relative;
-    padding: 1px 0;
-    color: #9c9c9c;
-    font-size: 1rem;
-    line-height: 1.6rem;
-    font-weight: lighter;
-    word-break: break-word;
+.abstract-title span:last-of-type {
+	transition: color 0.1s ease-in;
+	font-size: 1.7rem;
+}
+
+.abstract-content,
+.article-entry {
+	position: relative;
+	padding: 1px 0;
+	color: #9c9c9c;
+	font-size: 1rem;
+	line-height: 1.6rem;
+	font-weight: lighter;
+	word-break: break-word;
 }
 
 .abstract-post-meta {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0 0 0;
-    font-family: "Oswald-Regular";
-    color: #aaa;
-    height: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 0 0 0;
+	font-family: "Oswald-Regular";
+	color: #aaa;
+	height: 1.5rem;
+}
+
+.abstract-calander {
+	width: 1rem;
+	height: 1rem;
+	padding-bottom: 0.2rem;
+}
+
+.abstract-time {
+	margin-left: 0.5rem;
 }
