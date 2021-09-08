@@ -25,14 +25,38 @@ a {
 
 /* ------------------   header   ------------------*/
 .header-sidebar-menu {
-	background: url(../img/menu-left.png);
+	background: url(../img/menu-right.png);
+	background-size: cover;  
 	width: 30px;
 	height: 50px;
 	float: left;
+	position: absolute;
+	left: 1rem;
+	top: 50%;
+	width: 1.5rem;
+	height: 1.5rem;
+	transform: translate(0, -50%);
+	font-family: 'iconfont-archer';
+	color: #fff;
+	text-align: center;
+	line-height: 1.5rem;
+	z-index: 21;
+	cursor: pointer;
+}
+
+.header-sidebar-menu:hover {
+    
 }
 
 .home-link {
 	float: right;
+	position: absolute;
+	right: 2.5rem;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-family: "Oswald-Regular";
+	color: #fff;
+	cursor: pointer;
 }
 
 /* ------------------   wrapper   ------------------*/
@@ -81,6 +105,25 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.intro-fade-in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.intro-title {
+    font-size: 4rem;
+}
+.intro-title, .intro-subtitle {
+    font-family: "Oswald-Regular";
+    color: #fff;
+    margin: 0;
+    transition: all 0.5s ease-out 0s;
+}
+
+.intro-subtitle {
+    font-size: 2rem;
+    transition-delay: 0.5s;
 }
 
 /* ------------------   container   ------------------*/
