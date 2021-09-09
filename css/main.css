@@ -71,6 +71,26 @@ h1 {
     color: #f75357;
 }
 
+.home-page {
+	background-size: cover;
+	float: right;
+	position: absolute;
+	right: 1rem;
+	top: 50%;
+	width: 1.5rem;
+	height: 1.5rem;
+	transform: translate(0, -50%);
+	color: #CCCCCC;
+	text-align: center;
+	line-height: 1.5rem;
+	z-index: 21;
+	cursor: pointer;
+}
+
+.home-page:hover {
+	color: #f75357;
+}
+
 /* ------------------   wrapper   ------------------*/
 .wrapper {
 	z-index: 1;
