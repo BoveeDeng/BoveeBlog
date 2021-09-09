@@ -121,7 +121,7 @@ h1 {
 	left: 0;
 	height: calc(100% + 1px);
 	width: 100%;
-	filter: brightness(0.5);
+	filter: grayscale(80%) brightness(0.5);
 	-webkit-filter: brightness(0.5);
 	-moz-filter: brightness(0.5);
 	background-repeat: no-repeat;
