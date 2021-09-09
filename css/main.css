@@ -67,6 +67,10 @@ h1 {
 	cursor: pointer;
 }
 
+.home-link:hover {
+    color: #f75357;
+}
+
 /* ------------------   wrapper   ------------------*/
 .wrapper {
 	z-index: 1;
@@ -192,11 +196,14 @@ h1 {
 .profile-social {
 	position: relative;
 	width: 100%;
-	text-align: left;
 	line-height: 1.7rem;
 	padding: 0.5rem 0;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	text-align: center;
+}
+
+.profile-social .iconfont {
+    position: relative;
 }
 
 .profile-social .iconfont::before {
@@ -207,6 +214,18 @@ h1 {
 
 .icon-email:before {
     font-size: 1.3rem !important;
+}
+
+.profile-social .icon-email:hover::before {
+    color: #0cb49d;
+}
+
+.icon-github {
+	top: 0.1rem;
+}
+
+.profile-social .icon-github:hover::before {
+    color: #24292e;
 }
 
 .about-me {
@@ -247,11 +266,15 @@ h1 {
 	font-size: 1.7rem;
 }
 
+.abstract-title span:last-of-type:hover {
+    color: #f75357;
+}
+
 .abstract-content,
 .article-entry {
 	position: relative;
 	padding: 1px 0;
-	color: #9c9c9c;
+	color: #919191;
 	font-size: 1rem;
 	line-height: 1.6rem;
 	font-weight: lighter;

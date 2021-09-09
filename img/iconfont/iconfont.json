@@ -6,11 +6,11 @@
   "description": "blog icon",
   "glyphs": [
     {
-      "icon_id": "24220206",
-      "name": "email",
+      "icon_id": "24237911",
+      "name": "icon_mon_email-black",
       "font_class": "email",
-      "unicode": "e611",
-      "unicode_decimal": 58897
+      "unicode": "e619",
+      "unicode_decimal": 58905
     },
     {
       "icon_id": "24219695",

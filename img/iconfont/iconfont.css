@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2799971 */
-  src: url('iconfont.woff2?t=1631154688755') format('woff2'),
-       url('iconfont.woff?t=1631154688755') format('woff'),
-       url('iconfont.ttf?t=1631154688755') format('truetype');
+  src: url('iconfont.woff2?t=1631175350971') format('woff2'),
+       url('iconfont.woff?t=1631175350971') format('woff'),
+       url('iconfont.ttf?t=1631175350971') format('truetype');
 }
 
 .iconfont {
@@ -14,7 +14,7 @@
 }
 
 .icon-email:before {
-  content: "\e611";
+  content: "\e619";
 }
 
 .icon-clock:before {
