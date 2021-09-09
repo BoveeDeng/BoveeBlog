@@ -1,0 +1,30 @@
+{
+  "id": "2799971",
+  "name": "BoveeBlog",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "blog icon",
+  "glyphs": [
+    {
+      "icon_id": "24220206",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "24219695",
+      "name": "时钟",
+      "font_class": "clock",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "24218573",
+      "name": "social_github",
+      "font_class": "github",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}
