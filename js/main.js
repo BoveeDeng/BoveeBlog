@@ -8,7 +8,7 @@ function initView(datas) {
 	for (let data in datas) {
 		$(".index-page").append(
 			'<article class="index-post">' +
-			'<a class = "abstract-title" href = "/content/" >' +
+			'<a class = "abstract-title" href = "/content" >' +
 			'<span > ' + datas[data].title + ' </span> ' +
 			'</a> ' +
 			'<div class = "abstract-content" >' +
